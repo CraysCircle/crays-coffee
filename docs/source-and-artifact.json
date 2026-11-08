@@ -14,7 +14,8 @@
       }
     ],
     "gitPackSHA256": "4d2acc7ae6c1366d47284e2ed4f0da1b1509946385b56521932f6c0d7a563067",
-    "allOriginalCommitsPreserved": true
+    "scope": "Two commits of the specific qualified derived Next.js source capture, not all earlier mixed product history",
+    "allCommitsOfThisQualifiedCapturePreserved": true
   },
   "originalSourceFiles": [
     {
@@ -374,5 +375,12 @@
   },
   "recordedVersionAuthority": "VERSION24_PUBLIC_RECEIPTS_AS_OF_2026-11-08T19:22:47.160717+00:00_NOT_FRESH_RUNTIME_INSPECTION",
   "recordedSourceAppendixSHA256": "ca14a118d6ef3eb29a6ed13279fedaec70a084e3a118069bc14cc64109420fbc",
-  "originalFontNoticeEvidence": "Version-specific original font notices are recorded in the source appendix; font/media bodies and notice publication are still being reconciled."
+  "originalFontNoticeEvidence": "Version-specific original font notices are recorded in the source appendix; font/media bodies and notice publication are still being reconciled.",
+  "earlierSharedProductHistory": {
+    "historicalOriginalProductCommit": "4fec54bbe0fac52dbb301a0e4590d32d57e6c7cc",
+    "laterObservedLocalHead": "bac86dacb7a38fe825d185aa14913905b5af1082",
+    "currentGitHubPreservationVerified": false,
+    "notAnAutomaticRuntimeSourceSelection": true,
+    "remainingSeparateSourceHistoryAndWIPReview": true
+  }
 }

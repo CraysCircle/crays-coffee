@@ -1,6 +1,6 @@
 # License and provenance
 
-The two original commits and current source bytes were recovered from the specifically qualified Coffee source tree. Original public source files were copied unchanged through their original logical paths; local dependency/public aliases are recorded separately. The source/artifact index retains exact file hashes and the source-packet versions.
+The two commits of the specifically qualified derived source capture and current source bytes were recovered from the specifically qualified Coffee source tree. Original public source files were copied unchanged through their original logical paths; local dependency/public aliases are recorded separately. The source/artifact index retains exact file hashes and the source-packet versions.
 
 No root application LICENSE/NOTICE was established in the selected Coffee source roots. The original package has no license field; private:true is not a license grant. No MIT, GPL, AGPL or other blanket application license has been invented for this repository.
 
