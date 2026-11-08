@@ -1,0 +1,14 @@
+{
+  "/preorder": "subpage preorder-page crays-reference-page",
+  "/menu": "subpage menu-page-body crays-reference-page",
+  "/gift-cards": "subpage gift-page crays-reference-page",
+  "/wallet-sign-up": "subpage wallet-page crays-reference-page",
+  "/contact": "subpage contact-page crays-reference-page",
+  "/imprint": "subpage legal-page",
+  "/sustainability": "subpage sustainability-page crays-reference-page",
+  "/terms-and-conditions": "subpage legal-page",
+  "/privacy-policy": "subpage legal-page",
+  "/": "",
+  "/data-protection": "subpage legal-page",
+  "/locations": ""
+}

@@ -1,0 +1,12 @@
+.header { height: 67px; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 0 48px; background: #001522; color: white; }
+.header img { width: 142px; height: 40px; object-fit: contain; background: transparent; }
+.header nav { display: flex; gap: 28px; align-items: center; font-size: 13px; }
+.header a:focus-visible { outline: 2px solid #ef1c4a; outline-offset: 5px; }
+.frame { --font-body: "Crays", Arial, sans-serif; --font-display: "Crays", Arial, sans-serif; --font-code: "Crays", Arial, sans-serif; }
+.frame main { letter-spacing: normal; }
+.frame main svg { display: block; }
+.frame main h1, .frame main h2 { font-family: inherit; }
+.frame main > section { height: calc(100svh - 67px); padding-top: clamp(30px, 4vw, 54px); }
+@media (max-width: 1199px) { .frame main > section { padding-top: 28px; } }
+@media (max-width: 980px) { .frame main > section { height: auto; min-height: calc(100svh - 67px); padding-top: 24px; } }
+@media (max-width: 680px) { .header { padding: 0 20px; } .header nav { gap: 16px; } .frame main > section { padding-top: 16px; } }
