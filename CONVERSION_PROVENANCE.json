@@ -1,0 +1,98 @@
+{
+  "createdAtUTC": "2026-11-05T15:38:55.663063+00:00",
+  "liveDeploymentId": "dpl_sjLqtNDnZB71cqYhtpDeMDRfuKjw",
+  "completeFresh161SourcePinsStillMatch": true,
+  "pages": [
+    {
+      "route": "/preorder",
+      "originalPath": "preorder.html",
+      "sourceSHA256": "9b5dcaf857c5cab8af0c30f0e0d1953bedfd90363f39ba89b64eec2ee3185e4a",
+      "serverRenderedAsReact": true,
+      "rawHTMLInjection": false
+    },
+    {
+      "route": "/menu",
+      "originalPath": "menu.html",
+      "sourceSHA256": "3c78627b2ff0f60d33a170b4517418adc990fde0572d82e3c35a0604d312de02",
+      "serverRenderedAsReact": true,
+      "rawHTMLInjection": false
+    },
+    {
+      "route": "/gift-cards",
+      "originalPath": "gift-cards.html",
+      "sourceSHA256": "5204ab77f33770d18e7c50466d3e353157a3a94cfffe170fb8eae79cc2b5e266",
+      "serverRenderedAsReact": true,
+      "rawHTMLInjection": false
+    },
+    {
+      "route": "/wallet-sign-up",
+      "originalPath": "wallet-sign-up.html",
+      "sourceSHA256": "54dce7f2c509939064ffc9a06fdc5cc488cdccc89150fdc45dc23d79bf7bc6d9",
+      "serverRenderedAsReact": true,
+      "rawHTMLInjection": false
+    },
+    {
+      "route": "/contact",
+      "originalPath": "contact.html",
+      "sourceSHA256": "519cbc45516e2d3a58b53defed4c34f15a9cdfdb8fe898bbc9e471783857a689",
+      "serverRenderedAsReact": true,
+      "rawHTMLInjection": false
+    },
+    {
+      "route": "/imprint",
+      "originalPath": "imprint.html",
+      "sourceSHA256": "9571939519f6d248e6cfa992daa0353bb6cb1bae5679b8ce8e4c46c6fe9c3208",
+      "serverRenderedAsReact": true,
+      "rawHTMLInjection": false
+    },
+    {
+      "route": "/sustainability",
+      "originalPath": "sustainability.html",
+      "sourceSHA256": "95086bee5614467d221a517996a38e5365546828bcb25a0c9fe84a48a5408337",
+      "serverRenderedAsReact": true,
+      "rawHTMLInjection": false
+    },
+    {
+      "route": "/terms-and-conditions",
+      "originalPath": "terms-and-conditions.html",
+      "sourceSHA256": "b082fcc7c9a5603aaa0a3066d6b238878ee610da33794f9bad6c8b12fe7d5371",
+      "serverRenderedAsReact": true,
+      "rawHTMLInjection": false
+    },
+    {
+      "route": "/privacy-policy",
+      "originalPath": "privacy-policy.html",
+      "sourceSHA256": "2ea2039aa88c210f872eb2ac851bfe282f8991e8743bf9b27a7bb7daaf9d23a9",
+      "serverRenderedAsReact": true,
+      "rawHTMLInjection": false
+    },
+    {
+      "route": "/",
+      "originalPath": "index.html",
+      "sourceSHA256": "40b93e3f87328e560a6b0e06b19def05f00a12a844ac4fc16b615e4b79533426",
+      "serverRenderedAsReact": true,
+      "rawHTMLInjection": false
+    },
+    {
+      "route": "/data-protection",
+      "originalPath": "data-protection.html",
+      "sourceSHA256": "2a9ab4402e11ea0c9a8e73366ad1964e8e801aa66fc4760a032be561ce37ea92",
+      "serverRenderedAsReact": true,
+      "rawHTMLInjection": false
+    },
+    {
+      "route": "/locations",
+      "originalPath": "locations/index.html",
+      "sourceSHA256": "b8bb1b1638eefefd15a672f71d4b50c6e6353f72ac14fca7ac57d09893667b54",
+      "serverRenderedAsReact": true,
+      "rawHTMLInjection": false
+    }
+  ],
+  "existingInteractions": "Original JS retained via explicit sequential Next Script loading after hydration. React interaction modernization and actual service integrations remain acceptance work.",
+  "assetSource": "/home/craysdev/codex-chat-projects/member/output/aws-inventory-20261104/recovered-coffee-live-source/assets",
+  "assetPayloadAlreadyOnAWS": true,
+  "localAbsoluteAssetAliasIsBuildOnly": "Target release must bind the already verified AWS Coffee assets read-only; never ship a host-specific source alias.",
+  "allPagesVisualQAPassed": false,
+  "sixSiteAccountAndActualBackendAccepted": false,
+  "originalFilesModified": false
+}

@@ -1,7 +1,21 @@
-/* Preserve the existing floating navigation and expose the common account on
-   mobile as well, without removing its Order Now action. */
+/* Fit the existing navigation, including the added common account entry,
+   around its original logo and actions. */
+.floating-nav {
+  width: max-content;
+  max-width: calc(100vw - 24px);
+}
+.floating-nav > * { flex-shrink: 0; }
 .floating-nav .nav-link.account-link { display: inline-flex; gap: 7px; }
 @media (max-width: 1180px) {
   .floating-nav .nav-link.account-link { width: 36px; padding: 8px; flex: 0 0 36px; }
   .floating-nav .account-link span { display: none; }
+}
+@media (max-width: 620px) {
+  .floating-nav { width: calc(100vw - 24px); }
+}
+@media (max-width: 380px) {
+  .floating-nav { gap: 6px; padding-inline: 8px; }
+  .floating-nav .nav-logo { flex-basis: 80px; width: 80px; min-width: 80px; }
+  .floating-nav .nav-logo img { width: 74px; max-width: 74px; }
+  .floating-nav .order-link { min-width: 100px; }
 }

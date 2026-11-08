@@ -1,0 +1,378 @@
+{
+  "schema": "crays.coffee.source-artifact-index.v1",
+  "application": "CRAYS Coffee website",
+  "repository": "CraysCircle/crays-coffee",
+  "captureSourceScope": "25 original app/build/provenance files plus28public source/text files; excluded generated dependencies/builds and remaining binary assets are explicit",
+  "originalHistory": {
+    "commits": 2,
+    "baseCommit": "deeb9fda6bbe442350c63ce629d0148b03551893",
+    "baseTree": "d8c5304bf50129ac45c08fc7296d63993b8f60b2",
+    "originalRefs": [
+      {
+        "name": "refs/heads/master",
+        "sha": "deeb9fda6bbe442350c63ce629d0148b03551893"
+      }
+    ],
+    "gitPackSHA256": "4d2acc7ae6c1366d47284e2ed4f0da1b1509946385b56521932f6c0d7a563067",
+    "allOriginalCommitsPreserved": true
+  },
+  "originalSourceFiles": [
+    {
+      "bytes": 43,
+      "path": ".gitignore",
+      "sha256": "570a8d2985207ae4023c87b3953f174fd825e9ba61307c306b509bf0da0332d0",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 3753,
+      "path": "CONVERSION_PROVENANCE.json",
+      "sha256": "b9d7b130c4d526dca7e4ec3b0755d6358a3cf0c44aa40af871826fe64584b3e0",
+      "sourceTracked": false
+    },
+    {
+      "bytes": 644,
+      "path": "app/[[...slug]]/layout.tsx",
+      "sha256": "964d0ea979a3e80b1305d6fba4ce016f67681d1c7f801f4c2cd09d97d7d95997",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 1561,
+      "path": "app/[[...slug]]/page.tsx",
+      "sha256": "1c29653690487783c3743a2138e01c7e7d4a178604c1212a775e91f4a91c2b4e",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 823,
+      "path": "app/account-navigation.css",
+      "sha256": "45f95b7171159c0f8d766f5a16be7aea8f097febc4596cb027d12c5486ecc068",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 1095,
+      "path": "app/account/coffee-account-frame.module.css",
+      "sha256": "12ffca8f00933df627eaecebc1cda8a42f2e195590b067ef06e747f11e461937",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 280,
+      "path": "app/account/layout.tsx",
+      "sha256": "7e6143adc691b904a9608856d95d196a98df62b87697346a9a4ed6aff3e18df5",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 1482,
+      "path": "app/account/page.tsx",
+      "sha256": "c2f5479b56032604a4854c3430aed85b48afe01ec806eaab83da575c8cb017bd",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 115500,
+      "path": "app/crays-theme.css",
+      "sha256": "31caa04929d0ff2cddc22eba1e6a809a324fca2ae751848c1daaac338cf5eefe",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 286,
+      "path": "app/en/account/layout.tsx",
+      "sha256": "c1d31940c7bdb830726fceae09f729e18135dc14afad15267f86850b8df09e44",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 54,
+      "path": "app/en/account/page.tsx",
+      "sha256": "2d8249ca9786cac9b7628c8fbe7840f01eb7de516f71f579727b255bd32e693c",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 59563,
+      "path": "app/styles.css",
+      "sha256": "92e9a05405958a9958f81d74bda82d39278186315680692a99bd3af92d01077b",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 247,
+      "path": "next-env.d.ts",
+      "sha256": "7b550dda9686c16f36a17bf9051d5dbf31e98555b30d114ac49fc49a1e712651",
+      "sourceTracked": false
+    },
+    {
+      "bytes": 653,
+      "path": "next.config.ts",
+      "sha256": "b43beb45c8cfa5defe8fc7e72831f6d9d7c78347f46b6feb459a6e19625ee14d",
+      "sourceTracked": false
+    },
+    {
+      "bytes": 303,
+      "path": "package.json",
+      "sha256": "396cf6e485a3ce3a43e5ba91370958bb3d1f085447237cbc8fc6d043bc57c9c8",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 574,
+      "path": "src/CoffeeDocument.tsx",
+      "sha256": "309ee43514a480fbf5d6c4f531e1263d8574ba2928c954cab326f78907881798",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 753,
+      "path": "src/CoffeeInteractions.tsx",
+      "sha256": "597b0e4b2fefa4b97faedefddf2c99073bc0dfa371ae71b837d8fa1bf67ca31a",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 1477,
+      "path": "src/CoffeePageTree.tsx",
+      "sha256": "b2a7cdc26416b26162d5b9046d894b678659631661f739f7d7a0751041ef5d03",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 3792,
+      "path": "src/account-entry/AccountEntry.tsx",
+      "sha256": "ec6bb7a3c6f3633ef0e88e1c1c8dcba7150ed218905c2d33f20170f2a998fb91",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 17707,
+      "path": "src/account-entry/account-access-messages.ts",
+      "sha256": "196527fcbce918d054e5dbb6c977deb04e13aaf326b373d9b5ee0af08036478a",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 29861,
+      "path": "src/account-entry/clubs-member-account.module.css",
+      "sha256": "48b721ff2dcc499d93c867846d95583f193db8cad504a9e3ae7ffd3ddb9f1825",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 3813,
+      "path": "src/account-entry/clubs-public-design-tokens.module.css",
+      "sha256": "6afcc3191064339c5fa11e8960901feeaafe97cd1eb2da2c78c3f2628cb58ed2",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 581,
+      "path": "src/document.generated.json",
+      "sha256": "7380528b3048b6795dd44d2ba5318517d1a3f374d8d3a8fd0636f676b03f1fff",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 98025,
+      "path": "src/pages.generated.json",
+      "sha256": "eedd90b111d28b98f820657a70b9b3dceef6c1efc4d48f7e319b9f39536babdd",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 641,
+      "path": "tsconfig.json",
+      "sha256": "7d31e837ec2f96d1c3564459959f4598ff25af8971e0df78ad2de33805d0314f",
+      "sourceTracked": true
+    },
+    {
+      "bytes": 17019,
+      "path": "public/site.js",
+      "sha256": "da864bd45e9b888e1fedeea8567ec86c7b95f02b088640d7fe47ad1fcefc0fbc"
+    },
+    {
+      "bytes": 1235,
+      "path": "public/sitemap.xml",
+      "sha256": "9c7603bacae8acfea45c6051e8e7ffa726f8a1cf1cf515c00aaa0381e6fef81c"
+    },
+    {
+      "bytes": 9543,
+      "path": "public/script.js",
+      "sha256": "d8ebd351c7ab222bd60560b2788a0894bb4487169cc9ee29f9745aabe21d96fc"
+    },
+    {
+      "bytes": 70,
+      "path": "public/robots.txt",
+      "sha256": "472dd651f17a41717a2c287f565d30aa07f1a0c6d8428ad5c514230b6e24e90f"
+    },
+    {
+      "bytes": 4230,
+      "path": "public/assets/crays-mark.svg",
+      "sha256": "b30706f183711d1f5ef2906dda0c00a7e8e80ae38ba36a0ba1476cda0e86a7c6"
+    },
+    {
+      "bytes": 9662,
+      "path": "public/assets/crays-logo-white.svg",
+      "sha256": "e600f3591822ab58afd51b4a096e2204c5a93f7bab76ac260d52da18e94c2eca"
+    },
+    {
+      "bytes": 603,
+      "path": "public/assets/footer-icons/discord.svg",
+      "sha256": "d7d6441195992d10508b8229cd4fd59c690d6d301bb5bea7a81133f02fa58143"
+    },
+    {
+      "bytes": 17213,
+      "path": "public/assets/footer-icons/reddit.svg",
+      "sha256": "eaf13872178bc72eae60a9357c6695e788b0429702be7be92828b25cc8ef8658"
+    },
+    {
+      "bytes": 4159,
+      "path": "public/assets/footer-icons/tiktok.svg",
+      "sha256": "a3fa3e7da01c90af5c4c70eb6fba96d6d1acfb2378431471b14d80d38b5045fa"
+    },
+    {
+      "bytes": 20272,
+      "path": "public/assets/footer-icons/opencollective.svg",
+      "sha256": "05cca00d588fbc6d70716e163a458e2806bfd441d68cf152171d24d609cfa049"
+    },
+    {
+      "bytes": 21332,
+      "path": "public/assets/footer-icons/x.svg",
+      "sha256": "33ca64c3675f3e7ffaa07d063573480e36c9732666a7500a1241864280665532"
+    },
+    {
+      "bytes": 17542,
+      "path": "public/assets/footer-icons/telegram.svg",
+      "sha256": "cde35edea7f8b5a6f45d8e26bd3ca0f8116db1d621c2bf27918b0d9c698d41d3"
+    },
+    {
+      "bytes": 16965,
+      "path": "public/assets/footer-icons/github.svg",
+      "sha256": "07d11d2a07bca71e1b80f87b6683471af1e8b22c9454cb9c090505b76f471c78"
+    },
+    {
+      "bytes": 7491,
+      "path": "public/assets/footer-icons/youtube.svg",
+      "sha256": "1ff6e840e70209017ba5f3d639426df4a1f3edb5c201eff07390baa53f83193a"
+    },
+    {
+      "bytes": 1570,
+      "path": "public/assets/footer-icons/linkedin.svg",
+      "sha256": "f424edd0058e539297c8effefa728acf9432d15e5d2a3f3a5a9a464e5ec73266"
+    },
+    {
+      "bytes": 6566,
+      "path": "public/assets/footer-icons/instagram.svg",
+      "sha256": "0cc86a86b1c68ba9d7f6b80561e13b83c524a69f62e1ff4627cb1a1357663f1a"
+    },
+    {
+      "bytes": 1389,
+      "path": "public/assets/social/discord.svg",
+      "sha256": "1079ca31bae7631e8bc65f11f01943ae6594864b2c46d48e29d8741c0ee0c4e4"
+    },
+    {
+      "bytes": 1248,
+      "path": "public/assets/social/reddit.svg",
+      "sha256": "2f288778e653b64ff3c1b80de4de5efccca381107be4d1d23e750c653fa27f57"
+    },
+    {
+      "bytes": 722,
+      "path": "public/assets/social/tiktok.svg",
+      "sha256": "e1f13507f9712779d11c758016709b166fd6ada40c1c13542cdc85c80a51af1c"
+    },
+    {
+      "bytes": 430,
+      "path": "public/assets/social/opencollective.svg",
+      "sha256": "97e9e2266eed348705c7ced4b932b4df9ff0910f7e689d9eca646348f9bad98b"
+    },
+    {
+      "bytes": 314,
+      "path": "public/assets/social/x.svg",
+      "sha256": "3df9b2b36f93b58e7b0811ca7f0c60b7e1b9a1dd81864561d5277c067377934d"
+    },
+    {
+      "bytes": 757,
+      "path": "public/assets/social/telegram.svg",
+      "sha256": "8937ad12bd4ed7c4021300b59b4ba4134a63090af5c83c8ab7ec31da06915e5c"
+    },
+    {
+      "bytes": 180,
+      "path": "public/assets/social/nostr.svg",
+      "sha256": "0c48b24d728723ce0b7e2002b01f2a4a1714404159f8b8b31480c5c0ca3dd2a1"
+    },
+    {
+      "bytes": 837,
+      "path": "public/assets/social/github.svg",
+      "sha256": "4273809e6285ecb33648ba3272b77dd244f144cf1512a018eebf7a561b01b958"
+    },
+    {
+      "bytes": 474,
+      "path": "public/assets/social/youtube.svg",
+      "sha256": "b3208befe349e933badb02d89eb1a0037086df62bcf3046697759bdbcd1af739"
+    },
+    {
+      "bytes": 368,
+      "path": "public/assets/social/linkedin.svg",
+      "sha256": "150e83a3825ec876cb1a839a9a4a72dc574fba77eaaa6469d3208dd9bd34b489"
+    },
+    {
+      "bytes": 2466,
+      "path": "public/assets/social/instagram.svg",
+      "sha256": "4f8000305ace03f39c30ca4c1a2590e5cb55e9c7362281b7b3f31b8cc546f893"
+    },
+    {
+      "bytes": 9660,
+      "path": "public/__crays-account/v1/crays-logo-dark.svg",
+      "sha256": "fd98a2e6258b19a6c636f81e94e01d983aa547ad467239782f7d98853b5c180b"
+    }
+  ],
+  "versionControlOnlyChange": {
+    "path": ".gitignore",
+    "originalSHA256": "570a8d2985207ae4023c87b3953f174fd825e9ba61307c306b509bf0da0332d0",
+    "originalRetainedAtCommit": "deeb9fda6bbe442350c63ce629d0148b03551893",
+    "currentPolicy": "Track public website source; ignore generated dependencies/builds and protected environment/key files. Runtime source unchanged by this policy."
+  },
+  "sourcePackets": [
+    {
+      "key": "migration-work/20261108/github/coffee-source01/ORIGINAL_HISTORY_AND_CURRENT_SOURCE_PACKET.json",
+      "versionId": "Eikv2N3pLrLDg1Mh1c8FbYcFc_6aMtGd",
+      "sha256": "bab655c8e9dfbdc538a5d9a6bd17f539fb705bfdf65a1aad3620fcd134e906b0"
+    },
+    {
+      "key": "migration-work/20261108/github/coffee-source01/ORIGINAL_PUBLIC_SOURCE_PACKET.json",
+      "versionId": "IZx6eZbsRO3jAAoCHZ.wHr2q8RWaQ8eC",
+      "sha256": "181618f9882bc8b926a0fcc8fb636dcca3663d55a051e40aaadcf3deaca19001"
+    }
+  ],
+  "installedEightFileDelta": {
+    "app/[[...slug]]/layout.tsx": "964d0ea979a3e80b1305d6fba4ce016f67681d1c7f801f4c2cd09d97d7d95997",
+    "app/account/layout.tsx": "7e6143adc691b904a9608856d95d196a98df62b87697346a9a4ed6aff3e18df5",
+    "app/en/account/layout.tsx": "c1d31940c7bdb830726fceae09f729e18135dc14afad15267f86850b8df09e44",
+    "app/layout.tsx": null,
+    "src/CoffeeDocument.tsx": "309ee43514a480fbf5d6c4f531e1263d8574ba2928c954cab326f78907881798",
+    "src/document.generated.json": "7380528b3048b6795dd44d2ba5318517d1a3f374d8d3a8fd0636f676b03f1fff",
+    "app/styles.css": "92e9a05405958a9958f81d74bda82d39278186315680692a99bd3af92d01077b",
+    "app/account-navigation.css": "45f95b7171159c0f8d766f5a16be7aea8f097febc4596cb027d12c5486ecc068"
+  },
+  "sourceExecuted": false,
+  "fullWebsiteBackupAndLicenseClosure": false,
+  "recordedAWSVersion": {
+    "recordedContainerId": "57bc902be02cdd96983070ee34dd1e1b0e590a2c823be18425eab720bf4fb68f",
+    "recordedBuildId": "wfesv8amcj24yzgRoK8Zx",
+    "recordedImageFromVersionedPins": "sha256:752ea8a2f758c34002a0461bd9f1cee4f9a3c36d48494586f60ffce1fc708e0e",
+    "recordedCompiledReleaseRoot": "/srv/crays/releases/coffee-original-framing-contact-nav-20261108-13",
+    "recordedBaseReleaseRoot": "/srv/crays/releases/coffee-account-next-20261105-01",
+    "pinnedCompiledManifestSHA256": "a4aa5ce1df61fa0926f9005a081b37778d4adf25bb42de091afcb092b95a4992",
+    "historicalSourceAuthorityReference": {
+      "immutableRuntimeReleaseMounts": [
+        {
+          "source": "/srv/crays/releases/coffee-account-next-20261105-01",
+          "destination": "/app",
+          "readOnly": true
+        }
+      ],
+      "selectedSourceCandidate": "/home/craysdev/codex-chat-projects/member/output/aws-inventory-20261104/coffee-nextjs-20261105-01",
+      "sourceAuthorityEvidence": "COFFEE_PHASE9_CURRENT_SOURCE_SELECTION_20261105_ACTUAL.json",
+      "currentMountAssertion": false
+    },
+    "versionedCompiledTransfer": {
+      "bucket": "crays-acceptance-backups-391674093840-eu-central-2",
+      "key": "restore/approved/public-frontends/20261108/coffee-original-framing-contact-nav-7ac2215a6c116cf956196b3b314a443a8f42823d4b88e0426cb4f4b53b980cde.tar.gz",
+      "sha256": "7ac2215a6c116cf956196b3b314a443a8f42823d4b88e0426cb4f4b53b980cde",
+      "bytes": 699516,
+      "versionId": "CKV.GAu9nNsMJ7NiCiChVR6gFxVrXebJ",
+      "schema": "crays.versioned-transfer.v1"
+    },
+    "latestReceiptAsOf": {
+      "coverageAtUTC": "2026-11-08T13:57:35.815535+00:00",
+      "installationReceiptHasEmbeddedTimestamp": false,
+      "freshRuntimeVerified": false,
+      "targetedAcceptanceAtUTC": "2026-11-08T13:50:16.638240+00:00"
+    }
+  },
+  "recordedVersionAuthority": "VERSION24_PUBLIC_RECEIPTS_AS_OF_2026-11-08T19:22:47.160717+00:00_NOT_FRESH_RUNTIME_INSPECTION",
+  "recordedSourceAppendixSHA256": "ca14a118d6ef3eb29a6ed13279fedaec70a084e3a118069bc14cc64109420fbc",
+  "originalFontNoticeEvidence": "Version-specific original font notices are recorded in the source appendix; font/media bodies and notice publication are still being reconciled."
+}

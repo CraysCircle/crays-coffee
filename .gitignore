@@ -1,4 +1,10 @@
 node_modules/
 .next/
-public/
 *.tsbuildinfo
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Public website source is versioned; protected runtime data stays outside Git.

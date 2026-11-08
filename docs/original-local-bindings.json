@@ -1,0 +1,39 @@
+{
+  "originalDependencyAliases": [
+    {
+      "linkTarget": "/home/craysdev/codex-chat-projects/member/output/aws-inventory-20261104/coffee-nextjs-20261105-01/node_modules",
+      "path": "node_modules"
+    }
+  ],
+  "originalPublicAliases": [
+    {
+      "originalTarget": "/home/craysdev/codex-chat-projects/member/output/aws-inventory-20261104/coffee-nextjs-20261105-01/public/__crays-coffee",
+      "path": "public/__crays-coffee"
+    },
+    {
+      "originalTarget": "/home/craysdev/codex-chat-projects/member/output/aws-inventory-20261104/coffee-nextjs-20261105-01/public/assets",
+      "path": "public/assets"
+    },
+    {
+      "originalTarget": "/home/craysdev/codex-chat-projects/member/output/aws-inventory-20261104/coffee-nextjs-20261105-01/public/__crays-account",
+      "path": "public/__crays-account"
+    },
+    {
+      "originalTarget": "/home/craysdev/codex-chat-projects/member/output/aws-inventory-20261104/coffee-nextjs-20261105-01/public/site.js",
+      "path": "public/site.js"
+    },
+    {
+      "originalTarget": "/home/craysdev/codex-chat-projects/member/output/aws-inventory-20261104/coffee-nextjs-20261105-01/public/sitemap.xml",
+      "path": "public/sitemap.xml"
+    },
+    {
+      "originalTarget": "/home/craysdev/codex-chat-projects/member/output/aws-inventory-20261104/coffee-nextjs-20261105-01/public/script.js",
+      "path": "public/script.js"
+    },
+    {
+      "originalTarget": "/home/craysdev/codex-chat-projects/member/output/aws-inventory-20261104/coffee-nextjs-20261105-01/public/robots.txt",
+      "path": "public/robots.txt"
+    }
+  ],
+  "meaning": "Original host-specific aliases are evidence, not portable runtime configuration. Public source/text file bodies were copied unchanged to their logical public paths; dependency and binary asset closure remains open."
+}

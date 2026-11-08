@@ -3474,3 +3474,14 @@ input {
 .crays-operating-entity h2{font:inherit;font-size:1.5rem;font-weight:700;margin:.75rem 0;}
 .crays-operating-entity address{font-style:normal;line-height:1.7;}
 .crays-operating-entity p{margin:.75rem 0;}
+
+/* Keep the added legal entity below the original, full-width contact form. */
+.contact-shell:has(> .crays-operating-entity) {
+  flex-direction: column;
+  align-items: center;
+}
+.contact-shell > .crays-operating-entity {
+  width: min(1250px, 100%);
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
